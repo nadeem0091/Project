@@ -1,0 +1,639 @@
+Text Description,HTML Code
+"Create a heading with ""Hello World""",<h1>Hello World</h1>'
+Insert an image of a cat,"<img src=""cat.jpg"" alt=""Cat Image"">'"
+Add a link to Google,"<a href=""https://www.google.com"">Google</a>'"
+Create an unordered list,<ul><li>Item 1</li><li>Item 2</li></ul>'
+Format this text as bold,<strong>This text is bold</strong>'
+This is a red header,"<h1 style=""color: red;"">This is a red header</h1>'"
+This is a blue header,"<h1 style=""color: blue;"">This is a blue header</h1>'"
+This is a green header,"<h1 style=""color: green;"">This is a green header</h1>'"
+This is a yellow header,"<h1 style=""color: yellow;"">This is a yellow header</h1>'"
+This is a black header,"<h1 style=""color: black;"">This is a black header</h1>'"
+This is a white header,"<h1 style=""color: white;"">This is a white header</h1>'"
+header,"<!DOCTYPE html>
+<html>
+<head>
+    <title>Beautiful Header</title>
+    <style>
+        /* Styles for the header */
+        header {
+            background-color: #3498db;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Style the header title */
+        h1 {
+            font-size: 36px;
+        }
+
+        /* Style the header subtitle */
+        p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Website</h1>
+        <p>Your source for beautiful headers</p>
+    </header>
+    
+    <!-- Rest of your web page content goes here -->
+
+</body>
+</html>
+"
+Navigation Menu,"<!DOCTYPE html>
+<html>
+<head>
+    <title>Navigation Menu Example</title>
+    <link rel=""stylesheet"" type=""text/css"" href=""styles.css"">
+</head>
+<body>
+    <nav>
+        <div class=""container"">
+            <ul>
+                <li><a href=""#"">Home</a></li>
+                <li><a href=""#"">About</a></li>
+                <li><a href=""#"">Services</a></li>
+                <li><a href=""#"">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</body>
+</html>
+"
+Search Bar,"<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Bar Example</title>
+    <link rel=""stylesheet"" type=""text/css"" href=""styles.css"">
+</head>
+<body>
+    <section class=""search-bar"">
+        <div class=""container"">
+            <h2>Search Bar</h2>
+            <input type=""text"" id=""search-bar"" placeholder=""Search..."">
+        </div>
+    </section>
+</body>
+</html>
+"
+Login/Registration Form,"<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login/Registration Form Example</title>
+    <link rel=""stylesheet"" type=""text/css"" href=""styles.css"">
+</head>
+<body>
+    <section class=""login-form"">
+        <div class=""container"">
+            <h2>Login/Registration Form</h2>
+            <form id=""login-form"">
+                <label for=""username"">Username:</label>
+                <input type=""text"" id=""username"" name=""username"" required><br><br>
+                <label for=""password"">Password:</label>
+                <input type=""password"" id=""password"" name=""password"" required><br><br>
+                <input type=""submit"" value=""Login"">
+            </form>
+        </div>
+    </section>
+</body>
+</html>>
+</body>
+</html>
+
+"
+Footer,"<!DOCTYPE html>
+<html>
+<head>
+    <title>Footer Example</title>
+    <link rel=""stylesheet"" type=""text/css"" href=""styles.css"">
+</head>
+<body>
+    <footer>
+        <div class=""container"">
+            <p>&copy; 2023 My Website. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+"
+music band,"<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<title>W3.CSS Template</title>
+<meta charset=""UTF-8"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1"">
+<link rel=""stylesheet"" href=""https://www.w3schools.com/w3css/4/w3.css"">
+<link rel=""stylesheet"" href=""https://fonts.googleapis.com/css?family=Lato"">
+<link rel=""stylesheet"" href=""https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"">
+<style>
+body {font-family: ""Lato"", sans-serif}
+.mySlides {display: none}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class=""w3-top"">
+  <div class=""w3-bar w3-black w3-card"">
+    <a class=""w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"" href=""javascript:void(0)"" onclick=""myFunction()"" title=""Toggle Navigation Menu""><i class=""fa fa-bars""></i></a>
+    <a href=""#"" class=""w3-bar-item w3-button w3-padding-large"">HOME</a>
+    <a href=""#band"" class=""w3-bar-item w3-button w3-padding-large w3-hide-small"">BAND</a>
+    <a href=""#tour"" class=""w3-bar-item w3-button w3-padding-large w3-hide-small"">TOUR</a>
+    <a href=""#contact"" class=""w3-bar-item w3-button w3-padding-large w3-hide-small"">CONTACT</a>
+    <div class=""w3-dropdown-hover w3-hide-small"">
+      <button class=""w3-padding-large w3-button"" title=""More"">MORE <i class=""fa fa-caret-down""></i></button>     
+      <div class=""w3-dropdown-content w3-bar-block w3-card-4"">
+        <a href=""#"" class=""w3-bar-item w3-button"">Merchandise</a>
+        <a href=""#"" class=""w3-bar-item w3-button"">Extras</a>
+        <a href=""#"" class=""w3-bar-item w3-button"">Media</a>
+      </div>
+    </div>
+    <a href=""javascript:void(0)"" class=""w3-padding-large w3-hover-red w3-hide-small w3-right""><i class=""fa fa-search""></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id=""navDemo"" class=""w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top"" style=""margin-top:46px"">
+  <a href=""#band"" class=""w3-bar-item w3-button w3-padding-large"" onclick=""myFunction()"">BAND</a>
+  <a href=""#tour"" class=""w3-bar-item w3-button w3-padding-large"" onclick=""myFunction()"">TOUR</a>
+  <a href=""#contact"" class=""w3-bar-item w3-button w3-padding-large"" onclick=""myFunction()"">CONTACT</a>
+  <a href=""#"" class=""w3-bar-item w3-button w3-padding-large"" onclick=""myFunction()"">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class=""w3-content"" style=""max-width:2000px;margin-top:46px"">
+
+  <!-- Automatic Slideshow Images -->
+  <div class=""mySlides w3-display-container w3-center"">
+    <img src=""?D:\project\la.jpg"" style=""width:100%"">
+    <div class=""w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small"">
+      <h3>Los Angeles</h3>
+      <p><b>We had the best time playing at Venice Beach!</b></p>   
+    </div>
+  </div>
+  <div class=""mySlides w3-display-container w3-center"">
+    <img src=""/w3images/ny.jpg"" style=""width:100%"">
+    <div class=""w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small"">
+      <h3>New York</h3>
+      <p><b>The atmosphere in New York is lorem ipsum.</b></p>    
+    </div>
+  </div>
+  <div class=""mySlides w3-display-container w3-center"">
+    <img src=""/w3images/chicago.jpg"" style=""width:100%"">
+    <div class=""w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small"">
+      <h3>Chicago</h3>
+      <p><b>Thank you, Chicago - A night we won't forget.</b></p>    
+    </div>
+  </div>
+
+  <!-- The Band Section -->
+  <div class=""w3-container w3-content w3-center w3-padding-64"" style=""max-width:800px"" id=""band"">
+    <h2 class=""w3-wide"">THE BAND</h2>
+    <p class=""w3-opacity""><i>We love music</i></p>
+    <p class=""w3-justify"">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <div class=""w3-row w3-padding-32"">
+      <div class=""w3-third"">
+        <p>Name</p>
+        <img src=""/w3images/bandmember.jpg"" class=""w3-round w3-margin-bottom"" alt=""Random Name"" style=""width:60%"">
+      </div>
+      <div class=""w3-third"">
+        <p>Name</p>
+        <img src=""/w3images/bandmember.jpg"" class=""w3-round w3-margin-bottom"" alt=""Random Name"" style=""width:60%"">
+      </div>
+      <div class=""w3-third"">
+        <p>Name</p>
+        <img src=""/w3images/bandmember.jpg"" class=""w3-round"" alt=""Random Name"" style=""width:60%"">
+      </div>
+    </div>
+  </div>
+
+  <!-- The Tour Section -->
+  <div class=""w3-black"" id=""tour"">
+    <div class=""w3-container w3-content w3-padding-64"" style=""max-width:800px"">
+      <h2 class=""w3-wide w3-center"">TOUR DATES</h2>
+      <p class=""w3-opacity w3-center""><i>Remember to book your tickets!</i></p><br>
+
+      <ul class=""w3-ul w3-border w3-white w3-text-grey"">
+        <li class=""w3-padding"">September <span class=""w3-tag w3-red w3-margin-left"">Sold out</span></li>
+        <li class=""w3-padding"">October <span class=""w3-tag w3-red w3-margin-left"">Sold out</span></li>
+        <li class=""w3-padding"">November <span class=""w3-badge w3-right w3-margin-right"">3</span></li>
+      </ul>
+
+      <div class=""w3-row-padding w3-padding-32"" style=""margin:0 -16px"">
+        <div class=""w3-third w3-margin-bottom"">
+          <img src=""/w3images/newyork.jpg"" alt=""New York"" style=""width:100%"" class=""w3-hover-opacity"">
+          <div class=""w3-container w3-white"">
+            <p><b>New York</b></p>
+            <p class=""w3-opacity"">Fri 27 Nov 2016</p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class=""w3-button w3-black w3-margin-bottom"" onclick=""document.getElementById('ticketModal').style.display='block'"">Buy Tickets</button>
+          </div>
+        </div>
+        <div class=""w3-third w3-margin-bottom"">
+          <img src=""/w3images/paris.jpg"" alt=""Paris"" style=""width:100%"" class=""w3-hover-opacity"">
+          <div class=""w3-container w3-white"">
+            <p><b>Paris</b></p>
+            <p class=""w3-opacity"">Sat 28 Nov 2016</p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class=""w3-button w3-black w3-margin-bottom"" onclick=""document.getElementById('ticketModal').style.display='block'"">Buy Tickets</button>
+          </div>
+        </div>
+        <div class=""w3-third w3-margin-bottom"">
+          <img src=""/w3images/sanfran.jpg"" alt=""San Francisco"" style=""width:100%"" class=""w3-hover-opacity"">
+          <div class=""w3-container w3-white"">
+            <p><b>San Francisco</b></p>
+            <p class=""w3-opacity"">Sun 29 Nov 2016</p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class=""w3-button w3-black w3-margin-bottom"" onclick=""document.getElementById('ticketModal').style.display='block'"">Buy Tickets</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ticket Modal -->
+  <div id=""ticketModal"" class=""w3-modal"">
+    <div class=""w3-modal-content w3-animate-top w3-card-4"">
+      <header class=""w3-container w3-teal w3-center w3-padding-32""> 
+        <span onclick=""document.getElementById('ticketModal').style.display='none'"" 
+       class=""w3-button w3-teal w3-xlarge w3-display-topright"">×</span>
+        <h2 class=""w3-wide""><i class=""fa fa-suitcase w3-margin-right""></i>Tickets</h2>
+      </header>
+      <div class=""w3-container"">
+        <p><label><i class=""fa fa-shopping-cart""></i> Tickets, $15 per person</label></p>
+        <input class=""w3-input w3-border"" type=""text"" placeholder=""How many?"">
+        <p><label><i class=""fa fa-user""></i> Send To</label></p>
+        <input class=""w3-input w3-border"" type=""text"" placeholder=""Enter email"">
+        <button class=""w3-button w3-block w3-teal w3-padding-16 w3-section w3-right"">PAY <i class=""fa fa-check""></i></button>
+        <button class=""w3-button w3-red w3-section"" onclick=""document.getElementById('ticketModal').style.display='none'"">Close <i class=""fa fa-remove""></i></button>
+        <p class=""w3-right"">Need <a href=""#"" class=""w3-text-blue"">help?</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Contact Section -->
+  <div class=""w3-container w3-content w3-padding-64"" style=""max-width:800px"" id=""contact"">
+    <h2 class=""w3-wide w3-center"">CONTACT</h2>
+    <p class=""w3-opacity w3-center""><i>Fan? Drop a note!</i></p>
+    <div class=""w3-row w3-padding-32"">
+      <div class=""w3-col m6 w3-large w3-margin-bottom"">
+        <i class=""fa fa-map-marker"" style=""width:30px""></i> Chicago, US<br>
+        <i class=""fa fa-phone"" style=""width:30px""></i> Phone: +00 151515<br>
+        <i class=""fa fa-envelope"" style=""width:30px""> </i> Email: mail@mail.com<br>
+      </div>
+      <div class=""w3-col m6"">
+        <form action=""/action_page.php"" target=""_blank"">
+          <div class=""w3-row-padding"" style=""margin:0 -16px 8px -16px"">
+            <div class=""w3-half"">
+              <input class=""w3-input w3-border"" type=""text"" placeholder=""Name"" required name=""Name"">
+            </div>
+            <div class=""w3-half"">
+              <input class=""w3-input w3-border"" type=""text"" placeholder=""Email"" required name=""Email"">
+            </div>
+          </div>
+          <input class=""w3-input w3-border"" type=""text"" placeholder=""Message"" required name=""Message"">
+          <button class=""w3-button w3-black w3-section w3-right"" type=""submit"">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<img src=""/w3images/map.jpg"" class=""w3-image w3-greyscale-min"" style=""width:100%"">
+
+<!-- Footer -->
+<footer class=""w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge"">
+  <i class=""fa fa-facebook-official w3-hover-opacity""></i>
+  <i class=""fa fa-instagram w3-hover-opacity""></i>
+  <i class=""fa fa-snapchat w3-hover-opacity""></i>
+  <i class=""fa fa-pinterest-p w3-hover-opacity""></i>
+  <i class=""fa fa-twitter w3-hover-opacity""></i>
+  <i class=""fa fa-linkedin w3-hover-opacity""></i>
+  <p class=""w3-medium"">Powered by <a href=""https://www.w3schools.com/w3css/default.asp"" target=""_blank"">w3.css</a></p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName(""mySlides"");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = ""none"";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = ""block"";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById(""navDemo"");
+  if (x.className.indexOf(""w3-show"") == -1) {
+    x.className += "" w3-show"";
+  } else { 
+    x.className = x.className.replace("" w3-show"", """");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = ""none"";
+  }
+}
+</script>
+
+</body>
+</html>
+"
+fast food,"<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset=""UTF-8"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1"">
+<link rel=""stylesheet"" href=""https://www.w3schools.com/w3css/4/w3.css"">
+<style>
+body {font-family: ""Times New Roman"", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: ""Playfair Display"";
+  letter-spacing: 5px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class=""w3-top"">
+  <div class=""w3-bar w3-white w3-padding w3-card"" style=""letter-spacing:4px;"">
+    <a href=""#home"" class=""w3-bar-item w3-button"">Gourmet au Catering</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class=""w3-right w3-hide-small"">
+      <a href=""#about"" class=""w3-bar-item w3-button"">About</a>
+      <a href=""#menu"" class=""w3-bar-item w3-button"">Menu</a>
+      <a href=""#contact"" class=""w3-bar-item w3-button"">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class=""w3-display-container w3-content w3-wide"" style=""max-width:1600px;min-width:500px"" id=""home"">
+  <img class=""w3-image"" src=""D:\project\hamburger.jpg"" alt=""Hamburger Catering"" width=""1600"" height=""800"">
+  <div class=""w3-display-bottomleft w3-padding-large w3-opacity"">
+    <h1 class=""w3-xxlarge"">Le Catering</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class=""w3-content"" style=""max-width:1100px"">
+
+  <!-- About Section -->
+  <div class=""w3-row w3-padding-64"" id=""about"">
+    <div class=""w3-col m6 w3-padding-large w3-hide-small"">
+     <img src=""?D:\project\tablesetting.jpg"" class=""w3-round w3-image w3-opacity-min"" alt=""Table Setting"" width=""600"" height=""750"">
+    </div>
+
+    <div class=""w3-col m6 w3-padding-large"">
+      <h1 class=""w3-center"">About Catering</h1><br>
+      <h5 class=""w3-center"">Tradition since 1889</h5>
+      <p class=""w3-large"">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use <span class=""w3-tag w3-light-grey"">seasonal</span> ingredients.</p>
+      <p class=""w3-large w3-text-grey w3-hide-medium"">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Menu Section -->
+  <div class=""w3-row w3-padding-64"" id=""menu"">
+    <div class=""w3-col l6 w3-padding-large"">
+      <h1 class=""w3-center"">Our Menu</h1><br>
+      <h4>Bread Basket</h4>
+      <p class=""w3-text-grey"">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+    
+      <h4>Honey Almond Granola with Fruits</h4>
+      <p class=""w3-text-grey"">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
+    
+      <h4>Belgian Waffle</h4>
+      <p class=""w3-text-grey"">Vanilla flavored batter with malted flour 7.50</p><br>
+    
+      <h4>Scrambled eggs</h4>
+      <p class=""w3-text-grey"">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
+    
+      <h4>Blueberry Pancakes</h4>
+      <p class=""w3-text-grey"">With syrup, butter and lots of berries 8.50</p>    
+    </div>
+    
+    <div class=""w3-col l6 w3-padding-large"">
+      <img src=""D:\project\tablesetting2.jpg"" class=""w3-round w3-image w3-opacity-min"" alt=""Menu"" style=""width:100%"">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Contact Section -->
+  <div class=""w3-container w3-padding-64"" id=""contact"">
+    <h1>Contact</h1><br>
+    <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+    <p class=""w3-text-blue-grey w3-large""><b>Catering Service, 42nd Living St, 43043 New York, NY</b></p>
+    <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+    <form action=""/action_page.php"" target=""_blank"">
+      <p><input class=""w3-input w3-padding-16"" type=""text"" placeholder=""Name"" required name=""Name""></p>
+      <p><input class=""w3-input w3-padding-16"" type=""number"" placeholder=""How many people"" required name=""People""></p>
+      <p><input class=""w3-input w3-padding-16"" type=""datetime-local"" placeholder=""Date and time"" required name=""date"" value=""2020-11-16T20:00""></p>
+      <p><input class=""w3-input w3-padding-16"" type=""text"" placeholder=""Message \ Special requirements"" required name=""Message""></p>
+      <p><button class=""w3-button w3-light-grey w3-section"" type=""submit"">SEND MESSAGE</button></p>
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class=""w3-center w3-light-grey w3-padding-32"">
+  <p>Powered by <a href=""https://www.w3schools.com/w3css/default.asp"" title=""W3.CSS"" target=""_blank"" class=""w3-hover-text-green"">w3.css</a></p>
+</footer>
+
+</body>
+</html>
+"
+Architect,"<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset=""UTF-8"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1"">
+<link rel=""stylesheet"" href=""https://www.w3schools.com/w3css/4/w3.css"">
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class=""w3-top"">
+  <div class=""w3-bar w3-white w3-wide w3-padding w3-card"">
+    <a href=""#home"" class=""w3-bar-item w3-button""><b>BR</b> Architects</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class=""w3-right w3-hide-small"">
+      <a href=""#projects"" class=""w3-bar-item w3-button"">Projects</a>
+      <a href=""#about"" class=""w3-bar-item w3-button"">About</a>
+      <a href=""#contact"" class=""w3-bar-item w3-button"">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class=""w3-display-container w3-content w3-wide"" style=""max-width:1500px;"" id=""home"">
+  <img class=""w3-image"" src=""D:\project\architect.jpg"" alt=""Architecture"" width=""1500"" height=""800"">
+  <div class=""w3-display-middle w3-margin-top w3-center"">
+    <h1 class=""w3-xxlarge w3-text-white""><span class=""w3-padding w3-black w3-opacity-min""><b>BR</b></span> <span class=""w3-hide-small w3-text-light-grey"">Architects</span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class=""w3-content w3-padding"" style=""max-width:1564px"">
+
+  <!-- Project Section -->
+  <div class=""w3-container w3-padding-32"" id=""projects"">
+    <h3 class=""w3-border-bottom w3-border-light-grey w3-padding-16"">Projects</h3>
+  </div>
+
+  <div class=""w3-row-padding"">
+    <div class=""w3-col l3 m6 w3-margin-bottom"">
+      <div class=""w3-display-container"">
+        <div class=""w3-display-topleft w3-black w3-padding"">Summer House</div>
+        <img src=""D:\project\house5.jpg"" alt=""House"" style=""width:100%"">
+      </div>
+    </div>
+    <div class=""w3-col l3 m6 w3-margin-bottom"">
+      <div class=""w3-display-container"">
+        <div class=""w3-display-topleft w3-black w3-padding"">Brick House</div>
+        <img src=""?D:\project\house2.jpg"" alt=""House"" style=""width:100%"">
+      </div>
+    </div>
+    <div class=""w3-col l3 m6 w3-margin-bottom"">
+      <div class=""w3-display-container"">
+        <div class=""w3-display-topleft w3-black w3-padding"">Renovated</div>
+        <img src=""D:\project\house3.jpg"" alt=""House"" style=""width:100%"">
+      </div>
+    </div>
+    <div class=""w3-col l3 m6 w3-margin-bottom"">
+      <div class=""w3-display-container"">
+        <div class=""w3-display-topleft w3-black w3-padding"">Barn House</div>
+        <img src=""?D:\project\house4.jpg"" alt=""House"" style=""width:100%"">
+      </div>
+    </div>
+  </div>
+
+  <div class=""w3-row-padding"">
+    <div class=""w3-col l3 m6 w3-margin-bottom"">
+      <div class=""w3-display-container"">
+        <div class=""w3-display-topleft w3-black w3-padding"">Summer House</div>
+        <img src=""?D:\project\house22.jpgg"" alt=""House"" style=""width:99%"">
+      </div>
+    </div>
+    <div class=""w3-col l3 m6 w3-margin-bottom"">
+      <div class=""w3-display-container"">
+        <div class=""w3-display-topleft w3-black w3-padding"">Brick House</div>
+        <img src=""?D:\project\house55.jpg"" alt=""House"" style=""width:99%"">
+      </div>
+    </div>
+    <div class=""w3-col l3 m6 w3-margin-bottom"">
+      <div class=""w3-display-container"">
+        <div class=""w3-display-topleft w3-black w3-padding"">Renovated</div>
+        <img src=""D:\project\house44.jpg"" alt=""House"" style=""width:99%"">
+      </div>
+    </div>
+    <div class=""w3-col l3 m6 w3-margin-bottom"">
+      <div class=""w3-display-container"">
+        <div class=""w3-display-topleft w3-black w3-padding"">Barn House</div>
+        <img src=""?D:\project\house33.jpg"" alt=""House"" style=""width:99%"">
+      </div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div class=""w3-container w3-padding-32"" id=""about"">
+    <h3 class=""w3-border-bottom w3-border-light-grey w3-padding-16"">About</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+  </div>
+
+  <div class=""w3-row-padding w3-grayscale"">
+    <div class=""w3-col l3 m6 w3-margin-bottom"">
+      <img src=""?D:\project\team2.jpg"" alt=""John"" style=""width:100%"">
+      <h3>John Doe</h3>
+      <p class=""w3-opacity"">CEO & Founder</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><button class=""w3-button w3-light-grey w3-block"">Contact</button></p>
+    </div>
+    <div class=""w3-col l3 m6 w3-margin-bottom"">
+      <img src=""?D:\project\team1.jpg"" alt=""Jane"" style=""width:100%"">
+      <h3>Jane Doe</h3>
+      <p class=""w3-opacity"">Architect</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><button class=""w3-button w3-light-grey w3-block"">Contact</button></p>
+    </div>
+    <div class=""w3-col l3 m6 w3-margin-bottom"">
+      <img src=""?D:\project\team3.jpg"" alt=""Mike"" style=""width:100%"">
+      <h3>Mike Ross</h3>
+      <p class=""w3-opacity"">Architect</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><button class=""w3-button w3-light-grey w3-block"">Contact</button></p>
+    </div>
+    <div class=""w3-col l3 m6 w3-margin-bottom"">
+      <img src=""?D:\project\team4.jpg"" alt=""Dan"" style=""width:100%"">
+      <h3>Dan Star</h3>
+      <p class=""w3-opacity"">Architect</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><button class=""w3-button w3-light-grey w3-block"">Contact</button></p>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div class=""w3-container w3-padding-32"" id=""contact"">
+    <h3 class=""w3-border-bottom w3-border-light-grey w3-padding-16"">Contact</h3>
+    <p>Lets get in touch and talk about your next project.</p>
+    <form action=""/action_page.php"" target=""_blank"">
+      <input class=""w3-input w3-border"" type=""text"" placeholder=""Name"" required name=""Name"">
+      <input class=""w3-input w3-section w3-border"" type=""text"" placeholder=""Email"" required name=""Email"">
+      <input class=""w3-input w3-section w3-border"" type=""text"" placeholder=""Subject"" required name=""Subject"">
+      <input class=""w3-input w3-section w3-border"" type=""text"" placeholder=""Comment"" required name=""Comment"">
+      <button class=""w3-button w3-black w3-section"" type=""submit"">
+        <i class=""fa fa-paper-plane""></i> SEND MESSAGE
+      </button>
+    </form>
+  </div>
+  
+<!-- Image of location/map -->
+<div class=""w3-container"">
+  <img src=""?D:\project\map.jpg"" class=""w3-image"" style=""width:100%"">
+</div>
+
+<!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+<footer class=""w3-center w3-black w3-padding-16"">
+  <p>Powered by <a href=""https://www.w3schools.com/w3css/default.asp"" title=""W3.CSS"" target=""_blank"" class=""w3-hover-text-green"">w3.css</a></p>
+</footer>
+
+</body>
+</html>
+"
